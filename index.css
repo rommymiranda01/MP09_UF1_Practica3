@@ -1,0 +1,127 @@
+body{
+    background-image: url(img/fix.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1{
+    color: blue;
+    text-align: center; 
+    font-style: italic;
+    font-size: xx-large;
+}
+
+footer{
+    background: linear-gradient(to right, #f70000, #FBE0DB, #1100ff, #F6FBDB);
+    position: relative;
+    margin-top: 23%;
+    clear: both;
+}
+
+h2{
+    color: orange; 
+    font-size: larger; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    margin: 10px;
+    width: 25%;
+    height: 25%;
+}
+
+section{
+    float: right;
+    margin-top: -15%;
+    margin-right: 30%;
+    height: 15%;
+    width: 30%;
+}
+
+
+.articleAbsolut{
+ position: absolute;
+}
+
+.articleRelatiu{
+position: relative;
+}
+
+.anunci{
+    margin: auto;
+    position: fixed; bottom: 75%; left: 75%;
+    width: 100%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    box-shadow: inset 5px 0 5px -5px #0478b3; 
+    background-color: #0478b3;
+    font-style: italic;
+    color: #f5f5f5;
+}
+
+aside{
+    width: 300px;
+    height: 400px;
+    float: right;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.dos{
+    color: blue;
+    background-color: grey;
+    text-align: left;
+
+}
+
+.tres{
+    color: crimson;
+    background-color: dodgerblue;
+    text-align: right;
+}
+
+img{
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background-color: #0478b3;
+    box-shadow: #0478b3;
+    transition: ease-in;
+}
+
+img:hover{
+    background-color: red;
+}
+
+article{
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+
+.articleAbsolut img{
+    float: left;
+}
+
+.articleRelatiu img{
+    float: right;
+}
+
+.back{
+    background-image: url(img/back.jfif);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    height: 200px;
+    width: 150px;
+}
+
+
+.color{
+    opacity: 0;
+    background-color: dodgerblue;
+}
+
+div.back:hover div.color{
+    opacity: 1;
+}
